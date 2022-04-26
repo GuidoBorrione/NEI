@@ -1,0 +1,177 @@
+*{
+    padding: 1%;
+    margin: 1%;
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 170%;
+    text-align: center;
+}
+nav a {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    box-shadow: 5px 5px 5px 5px rgb(145, 34, 34);
+}
+p {
+    text-align: justify;
+}
+img{
+    width: 97%;
+}
+hr{
+    opacity: 0;
+}
+.logo img {
+    width: 16%;
+}
+.fotos img{
+    width: 95%;
+}
+@media (min-width: 1028px){
+    *{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    hr{
+        opacity: 1;
+    }
+    h1{
+        font-size: 260%;
+        margin: 2% 0;
+    }
+    h2{
+        text-align: center;
+        font-size: 240%;
+        margin: 1% 1%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin: 2% 0 2% 0;
+    }
+    .guerra{
+        display: flex;
+        margin: 0 6% 3% 0;
+    }
+    .guerra img{
+        width: 65%;
+        margin: 0 0 0 2%;
+        border: 1px solid #000;
+    }
+    .guerra p{
+        text-align: justify;
+        margin: 0 0 0 1%;
+    }
+    .parrafo2 {
+        display: flex;
+        margin: 0 6% 3% 0;
+    }
+    .parrafo2 img {
+        width: 65%;
+        margin: 2% 1% 0 3%;
+        border: 1px solid #000;
+    }
+    .parrafo2 p{
+        text-align: justify;
+        margin: 5% 0 0 1%;
+    }
+    .parrafo3{
+        display: flex;
+        align-items: center;
+    }
+    .parrafo3 img{
+        max-width: 27%;
+    }
+    .parrafo3 p{
+        display: flex;
+    }
+    .articulo p{
+        margin: 1% 3% 2% 0;
+    }
+    .logo{
+        margin: 1% 1%;
+    }
+    .logo img {
+        width: 16%;
+    }
+    .articulo{
+        margin: 0 1%;
+    }
+    .fotos img{
+        width: 80%;
+    }
+    .fotos h3{
+        margin: 7% 15% 5% 0;
+    }
+    .contenedor{
+        display: flex;
+        margin: 0 1%;
+    }
+}
+@media (min-width: 1180px){
+    *{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    hr{
+        opacity: 1;
+    }
+    h1{
+        font-size: 260%;
+        margin: 2% 0;
+    }
+    h2{
+        text-align: center;
+        font-size: 240%;
+        margin: 1% 1%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin: 1% 0;
+    }
+    .guerra{
+        display: flex;
+        margin: 0 6% 3% 0;
+    }
+    .guerra img{
+        width: 65%;
+        margin: 0 0 0 2%;
+        border: 1px solid #000;
+    }
+    .guerra p{
+        text-align: justify;
+        margin: 0 0 0 1%;
+    }
+    .parrafo2 {
+        display: flex;
+        margin: 0 6% 3% 0;
+    }
+    .parrafo2 img {
+        width: 65%;
+        margin: 2% 1% 0 3%;
+        border: 1px solid #000;
+    }
+    .parrafo2 p{
+        text-align: justify;
+        margin: 5% 0 0 1%;
+    }
+    .parrafo3{
+        display: flex;
+        align-items: center;
+    }
+    .parrafo3 img{
+        max-width: 27%;
+    }
+    .parrafo3 p{
+        display: flex;
+    }
+}
